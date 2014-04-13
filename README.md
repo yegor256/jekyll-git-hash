@@ -1,4 +1,5 @@
-Copy `jekyll-git-hash.rb` file to your `_plugins` directory.
+Copy [`jekyll-git-hash.rb`](https://raw.githubusercontent.com/yegor256/jekyll-git-hash/master/jekyll-git-hash.rb)
+file to your `_plugins` directory.
 
 Use `{{ site.data['hash']}}` inside your liquid template.
 
