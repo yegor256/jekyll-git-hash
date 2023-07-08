@@ -3,7 +3,7 @@ AllCops:
     - 'bin/**/*'
     - 'assets/**/*'
   DisplayCopNames: true
-  TargetRubyVersion: '2.3'
+  TargetRubyVersion: '2.6'
   NewCops: enable
   SuggestExtensions: false
 
@@ -18,4 +18,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 50
 Layout/MultilineMethodCallIndentation:
+  Enabled: false
+Naming/FileName:
   Enabled: false

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # (The MIT License)
 #
 # Copyright (c) 2014-2023 Yegor Bugayenko
@@ -31,12 +33,14 @@
 # Distributed under the MIT license
 # Copyright Yegor Bugayenko, 2014
 
+# Main Jekyll module
 module Jekyll
+  # Our class generator
   class GitHashGenerator < Generator
     priority :high
     safe true
     def generate(site)
-      hash = %x( git rev-parse --short HEAD ).strip
+      hash = `git rev-parse --short HEAD`.strip
       site.data['hash'] = hash
     end
   end

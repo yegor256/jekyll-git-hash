@@ -35,11 +35,7 @@ def version
   Gem::Specification.load(Dir['*.gemspec'].first).version
 end
 
-task default: %i[clean jekylls rubocop copyright]
-
-task :jekylls do
-  sh 'cd test-jekylls; make'
-end
+task default: %i[clean rubocop copyright]
 
 require 'rdoc/task'
 desc 'Build RDoc documentation'

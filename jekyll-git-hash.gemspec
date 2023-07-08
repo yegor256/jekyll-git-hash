@@ -29,7 +29,7 @@ require 'version'
 
 Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.6'
   s.name = 'jekyll-git-hash'
   s.version = PlantUML::VERSION
   s.license = 'MIT'
@@ -42,6 +42,6 @@ Gem::Specification.new do |s|
   s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = %w[README.md LICENSE.txt]
-  s.add_runtime_dependency 'jekyll', '>2.0'
+  s.add_runtime_dependency 'jekyll', '>=3.9.2'
   s.metadata['rubygems_mfa_required'] = 'true'
 end
