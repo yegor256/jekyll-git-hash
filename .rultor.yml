@@ -9,10 +9,10 @@ release:
   script: |-
     bundle exec rake
     rm -rf *.gem
-    sed -i "s/1\.0\.snapshot/${tag}/g" lib/version.rb
-    git add lib/version.rb
+    sed -i "s/0\.0\.0/${tag}/g" jekyll-git-hash.gemspec
+    git add jekyll-git-hash.gemspec
     git commit -m "version set to ${tag}"
-    gem build jekyll-plantuml.gemspec
+    gem build jekyll-git-hash.gemspec
     chmod 0600 ../rubygems.yml
     gem push *.gem --config-file ../rubygems.yml
 merge:

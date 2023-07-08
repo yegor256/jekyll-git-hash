@@ -23,15 +23,12 @@
 # SOFTWARE.
 
 require 'English'
-lib = File.expand_path('lib', __dir__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'version'
 
 Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.required_ruby_version = '>= 2.6'
   s.name = 'jekyll-git-hash'
-  s.version = PlantUML::VERSION
+  s.version = '0.0.0'
   s.license = 'MIT'
   s.summary = 'Jekyll Git Hash'
   s.description = 'Adds Git hash to the properties of the Jekyll site'
