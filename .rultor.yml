@@ -6,6 +6,7 @@ install: |
   pdd -f /dev/null
   bundle install --no-color
 release:
+  pre: false
   script: |-
     bundle exec rake
     rm -rf *.gem
