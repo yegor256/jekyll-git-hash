@@ -1,6 +1,8 @@
 [![rake](https://github.com/yegor256/jekyll-git-hash/actions/workflows/rake.yml/badge.svg)](https://github.com/yegor256/jekyll-git-hash/actions/workflows/rake.yml)
 [![Gem Version](https://badge.fury.io/rb/jekyll-git-hash.svg)](http://badge.fury.io/rb/jekyll-git-hash)
 
+I use this plugin in [my Jekyll-powered blog](https://github.com/yegor256/blog).
+
 Install it first:
 
 ```
@@ -52,3 +54,4 @@ suffix doesn't change the URL (`layout.css` will still
 be accesible by the browser), but it makes the URL unique
 for the browser when you deploy a new Git revision. All browsers
 will reload this CSS.
+
