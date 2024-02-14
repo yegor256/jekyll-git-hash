@@ -21,3 +21,5 @@ Layout/MultilineMethodCallIndentation:
   Enabled: false
 Naming/FileName:
   Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
