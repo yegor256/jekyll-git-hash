@@ -26,5 +26,5 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake', '13.1.0', require: false
-gem 'rubocop', '1.60.2', require: false
+gem 'rubocop', '1.62.1', require: false
 gem 'rubocop-rspec', '2.27.1', require: false
