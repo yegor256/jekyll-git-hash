@@ -30,9 +30,9 @@ to your `Gemfile`:
 gem "jekyll-git-hash"
 ```
 
-The plugin is compatible with 
-[Jekyll 3.9.3](https://jekyllrb.com/news/2023/01/29/jekyll-3-9-3-released/) and 
-[Jekyll 4.3.2](https://jekyllrb.com/news/2023/01/20/jekyll-4-3-2-released/). 
+The plugin is compatible with
+[Jekyll 3.9.3](https://jekyllrb.com/news/2023/01/29/jekyll-3-9-3-released/) and
+[Jekyll 4.3.2](https://jekyllrb.com/news/2023/01/20/jekyll-4-3-2-released/).
 
 Use `{{ site.data['hash']}}` inside your liquid template.
 
@@ -54,4 +54,3 @@ suffix doesn't change the URL (`layout.css` will still
 be accesible by the browser), but it makes the URL unique
 for the browser when you deploy a new Git revision. All browsers
 will reload this CSS.
-
