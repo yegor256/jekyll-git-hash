@@ -7,7 +7,6 @@ AllCops:
   TargetRubyVersion: '2.6'
   NewCops: enable
   SuggestExtensions: false
-
 Lint/RescueException:
   Enabled: false
 Metrics/MethodLength:
@@ -24,3 +23,7 @@ Naming/FileName:
   Enabled: false
 Style/ClassAndModuleChildren:
   Enabled: false
+required:
+  - rubocop-rake
+  - rubocop-minitest
+  - rubocop-performance
