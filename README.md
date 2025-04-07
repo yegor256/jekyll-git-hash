@@ -1,5 +1,5 @@
 [![rake](https://github.com/yegor256/jekyll-git-hash/actions/workflows/rake.yml/badge.svg)](https://github.com/yegor256/jekyll-git-hash/actions/workflows/rake.yml)
-[![Gem Version](https://badge.fury.io/rb/jekyll-git-hash.svg)](http://badge.fury.io/rb/jekyll-git-hash)
+[![Gem Version](https://badge.fury.io/rb/jekyll-git-hash.svg)](https://badge.fury.io/rb/jekyll-git-hash)
 
 I use this plugin in [my Jekyll-powered blog](https://github.com/yegor256/blog).
 
