@@ -1,3 +1,5 @@
+# Git Hash Plugin for Jekyll
+
 [![rake](https://github.com/yegor256/jekyll-git-hash/actions/workflows/rake.yml/badge.svg)](https://github.com/yegor256/jekyll-git-hash/actions/workflows/rake.yml)
 [![Gem Version](https://badge.fury.io/rb/jekyll-git-hash.svg)](https://badge.fury.io/rb/jekyll-git-hash)
 
@@ -5,7 +7,7 @@ I use this plugin in [my Jekyll-powered blog](https://github.com/yegor256/blog).
 
 Install it first:
 
-```
+```bash
 gem install jekyll-git-hash
 ```
 
@@ -26,7 +28,7 @@ require 'jekyll-git-hash'
 Highly recommend to use Bundler. If you're using it, add this line
 to your `Gemfile`:
 
-```
+```ruby
 gem "jekyll-git-hash"
 ```
 
@@ -51,6 +53,6 @@ For example, in your `default.html`:
 
 The URL will be generated with a suffix at the end. This
 suffix doesn't change the URL (`layout.css` will still
-be accesible by the browser), but it makes the URL unique
+be accessible by the browser), but it makes the URL unique
 for the browser when you deploy a new Git revision. All browsers
 will reload this CSS.
