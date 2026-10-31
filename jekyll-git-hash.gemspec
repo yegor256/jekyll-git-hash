@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = %w[README.md LICENSE.txt]
-  s.add_runtime_dependency 'jekyll', '>=3.9.2'
+  s.add_dependency 'jekyll', '>=3.9.2'
   s.metadata['rubygems_mfa_required'] = 'true'
 end
