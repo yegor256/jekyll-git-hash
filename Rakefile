@@ -16,7 +16,14 @@ def version
   Gem::Specification.load(Dir['*.gemspec'].first).version
 end
 
-task default: %i[clean rubocop copyright]
+task default: %i[clean test rubocop copyright]
+
+require 'rake/testtask'
+Rake::TestTask.new(:test) do |test|
+  test.libs << 'lib' << 'test'
+  test.pattern = 'test/**/test_*.rb'
+  test.warning = true
+end
 
 require 'rdoc/task'
 desc 'Build RDoc documentation'
